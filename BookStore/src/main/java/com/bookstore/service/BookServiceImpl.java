@@ -51,7 +51,7 @@ public class BookServiceImpl implements IBookService {
 	@Autowired
 	private JwtTokenUtil generateToken;
 
-	private static String UPLOADED_FOLDER = "G:/BookStore-FrontEnd/BookStoreFrontEnd/src/assets/BookImages/";
+	private static String UPLOADED_FOLDER = "F:/bookstore-frontend-teamwork/src/assets/BookImages/";
 //	G:\BookStore-FrontEnd\BookStoreFrontEnd
 	static int userId;
 

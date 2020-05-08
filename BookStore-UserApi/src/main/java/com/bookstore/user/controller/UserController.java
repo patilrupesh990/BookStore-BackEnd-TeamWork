@@ -30,8 +30,9 @@ import com.bookstore.user.service.IUserService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/users")
+@CrossOrigin(allowedHeaders = "*", origins = "*", exposedHeaders = { "jwtToken" }, maxAge = 3600)
 public class UserController {
 	
 	@Autowired

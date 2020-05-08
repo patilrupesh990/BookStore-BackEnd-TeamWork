@@ -56,6 +56,5 @@ public class Book {
 	private String authorName;
 	
 	@Column
-	private String bookImage;
-	
+	private String bookImage;	
 }
